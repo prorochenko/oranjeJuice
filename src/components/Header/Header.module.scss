@@ -1,0 +1,64 @@
+@import '../../assets/styles/index.scss';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.header__logo {
+  border-radius: 10px;
+  background-color: var(--main-background-color);
+  text-decoration: none;
+  padding: 10px 25px;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header__logo:hover {
+  background-color: (var(--main-accent-background-color));
+
+  &:before {
+    content: ' ';
+    border-radius: 20px;
+    border: 2px var(--main-background-color) solid;
+    position: absolute;
+    left: 25px;
+    top: 12px;
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    transition: all 0.7s ease;
+    animation: grow 1s infinite;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+}
+
+.header__links {
+  list-style-type: none;
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.header_link {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--item-list-color);
+  font-weight: 600;
+}
+.header_link:hover {
+  color: var(--main-accent-color);
+}
