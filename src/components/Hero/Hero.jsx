@@ -1,13 +1,6 @@
 import scss from './Hero.module.scss';
 import heroImage from '../../assets/images/Hero.jpg';
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-} from 'react-scroll';
+import { Link, Events, scrollSpy } from 'react-scroll';
 import React, { useEffect } from 'react';
 
 export const Hero = () => {
@@ -33,21 +26,6 @@ export const Hero = () => {
   }, []);
 
   // Defining functions to perform different types of scrolling.
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
-  const scrollToBottom = () => {
-    scroll.scrollToBottom();
-  };
-
-  const scrollTo = () => {
-    scroll.scrollTo(100); // Scrolling to 100px from the top of the page.
-  };
-
-  const scrollMore = () => {
-    scroll.scrollMore(100); // Scrolling an additional 100px from the current scroll position.
-  };
 
   // Function to handle the activation of a link.
   const handleSetActive = to => {
