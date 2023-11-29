@@ -12,16 +12,16 @@ import LoadingComponent from '../Loader/Loader';
 
 const Layout = () => {
   return (
-    <div className={css.box}>
-      <Header />
-      <Hero />
-      <Story />
-      <Slider />
-      <Benefits />
-      <Suspense fallback={LoadingComponent()}>
+    <Suspense fallback={LoadingComponent()}>
+      <div className={css.box}>
+        <Header />
+        <Hero />
+        <Story />
+        <Slider />
+        <Benefits />
         <Outlet className={css.main} />
-      </Suspense>
-    </div>
+      </div>
+    </Suspense>
   );
 };
 
