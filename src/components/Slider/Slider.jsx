@@ -1,5 +1,5 @@
 import scss from './Slider.module.scss';
-import storyImage from '../../assets/images/Story.png';
+// import storyImage from '../../assets/images/Story.png';
 
 import React from 'react';
 
