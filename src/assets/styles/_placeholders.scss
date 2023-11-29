@@ -68,6 +68,8 @@
   }
 
   @include mq(tab) {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   @include mq(desk) {
@@ -75,4 +77,8 @@
     padding-left: 80px;
     padding-right: 80px;
   }
+}
+
+%section {
+  margin: 50px 0;
 }

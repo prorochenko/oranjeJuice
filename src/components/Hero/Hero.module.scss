@@ -1,0 +1,59 @@
+@import '../../assets/styles/index.scss';
+
+.hero {
+  position: relative;
+  @extend %section;
+  margin-top: 0;
+}
+
+.hero__title {
+  position: absolute;
+
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-transform: uppercase;
+  color: var(--item-list-color);
+  font-size: 65px;
+}
+
+.hero__blockFirst {
+  position: absolute;
+  top: 24%;
+  left: 60%;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px 15px;
+  border-radius: 30px;
+  max-width: 292px;
+  color: var(--item-list-color);
+  text-transform: capitalize;
+}
+
+.hero__blockSecond {
+  position: absolute;
+  top: 58%;
+  left: 14%;
+  color: var(--item-list-color);
+  background-color: var(--secondary-background-color);
+  padding: 28px 15px;
+  border-radius: 30px;
+  max-width: 305px;
+  text-transform: capitalize;
+}
+
+.hero__button {
+  position: absolute;
+  top: 88%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-text-color);
+  padding: 15px 45px;
+  border-radius: 18px;
+  background-color: var(--background-button);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
