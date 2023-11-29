@@ -1,0 +1,19 @@
+@import '../../assets/styles/index.scss';
+
+.partnership {
+  @extend %container;
+  @extend %section;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.partnership__title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: var(--item-list-color);
+  font-size: 32px;
+  line-height: 1.5;
+}

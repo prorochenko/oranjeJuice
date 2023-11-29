@@ -6,7 +6,7 @@ import React from 'react';
 export const Story = () => {
   return (
     <div className={scss.story}>
-      <img src={storyImage} alt="Your Alt Text" />
+      <img src={storyImage} alt="our story" />
       <div>
         <h2 className={scss.story__title}>Our story and victories</h2>
         <p className={scss.story__description}>
