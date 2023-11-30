@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/oranjeJuice/static/css/main.a947cbd4.css",
-    "main.js": "/oranjeJuice/static/js/main.3e096a15.js",
-    "static/css/139.75203c9b.chunk.css": "/oranjeJuice/static/css/139.75203c9b.chunk.css",
-    "static/js/139.0fc92367.chunk.js": "/oranjeJuice/static/js/139.0fc92367.chunk.js",
+    "main.js": "/oranjeJuice/static/js/main.32f12c6d.js",
+    "static/css/732.bf4cfb5d.chunk.css": "/oranjeJuice/static/css/732.bf4cfb5d.chunk.css",
+    "static/js/732.534b231d.chunk.js": "/oranjeJuice/static/js/732.534b231d.chunk.js",
+    "static/css/363.882d317d.chunk.css": "/oranjeJuice/static/css/363.882d317d.chunk.css",
     "static/js/363.51e000db.chunk.js": "/oranjeJuice/static/js/363.51e000db.chunk.js",
     "static/media/Hero.jpg": "/oranjeJuice/static/media/Hero.d911a6c222eba24845da.jpg",
     "static/media/Group 18.png": "/oranjeJuice/static/media/Group 18.613f586e7430e3e846ee.png",
@@ -24,13 +25,14 @@
     "static/media/image 32.png": "/oranjeJuice/static/media/image 32.1ddac59fcd9f218252b5.png",
     "index.html": "/oranjeJuice/index.html",
     "main.a947cbd4.css.map": "/oranjeJuice/static/css/main.a947cbd4.css.map",
-    "main.3e096a15.js.map": "/oranjeJuice/static/js/main.3e096a15.js.map",
-    "139.75203c9b.chunk.css.map": "/oranjeJuice/static/css/139.75203c9b.chunk.css.map",
-    "139.0fc92367.chunk.js.map": "/oranjeJuice/static/js/139.0fc92367.chunk.js.map",
+    "main.32f12c6d.js.map": "/oranjeJuice/static/js/main.32f12c6d.js.map",
+    "732.bf4cfb5d.chunk.css.map": "/oranjeJuice/static/css/732.bf4cfb5d.chunk.css.map",
+    "732.534b231d.chunk.js.map": "/oranjeJuice/static/js/732.534b231d.chunk.js.map",
+    "363.882d317d.chunk.css.map": "/oranjeJuice/static/css/363.882d317d.chunk.css.map",
     "363.51e000db.chunk.js.map": "/oranjeJuice/static/js/363.51e000db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a947cbd4.css",
-    "static/js/main.3e096a15.js"
+    "static/js/main.32f12c6d.js"
   ]
 }
