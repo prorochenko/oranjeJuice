@@ -26,7 +26,9 @@ const Modal = props => {
     partnershipType: '',
     message: '',
   });
-
+  const [isActive, setIsActive] = useState(false);
+  const [selectedItem, setSelectedItem] = useState('');
+  const dropdownRef = useRef(null);
   const handleChange = e => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -36,17 +38,6 @@ const Modal = props => {
     e.preventDefault();
     console.log('Submitted:', formData);
   };
-
-  useEffect(() => {
-    document.addEventListener('keydown', handleKeyDown);
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  }, []);
-
-  const [isActive, setIsActive] = useState(false);
-  const [selectedItem, setSelectedItem] = useState('');
-  const dropdownRef = useRef(null);
 
   const handleDropdownToggle = () => {
     setIsActive(!isActive);
@@ -64,6 +55,13 @@ const Modal = props => {
       setIsActive(false);
     }
   };
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutsideDropDown);
