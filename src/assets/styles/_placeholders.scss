@@ -74,8 +74,8 @@
 
   @include mq(desk) {
     min-width: 1120px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 

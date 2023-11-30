@@ -31,7 +31,7 @@ export const Benefits = ({ openModal }) => {
         </div>
       </div>
 
-      <div className={scss.benefits__block}>
+      <div className={`${scss.benefits__block} ${scss.benefits__blockReverse}`}>
         <div
           className={`${scss.benefits__textBlock_reverse} ${scss.benefits__textBlock}`}
         >
