@@ -13,12 +13,18 @@ const geoData = [
   ['France', 700],
   ['Ukraine', 700],
 ];
+
 const options = {
   colorAxis: { colors: ['#F1AE00'] },
   datalessRegionColor: 'white',
   legend: 'none',
   backgroundColor: '#FFF8EA',
+  tooltip: {
+    show: true,
+    text: 'Country',
+  },
 };
+
 export const Presence = () => {
   return (
     <Element name="presence" className={scss.presence}>

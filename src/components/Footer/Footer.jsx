@@ -1,6 +1,6 @@
 import scss from './Footer.module.scss';
 import { Element } from 'react-scroll';
-import { Link, Events, scrollSpy } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import React from 'react';
 
