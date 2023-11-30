@@ -61,7 +61,7 @@ const Modal = props => {
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [handleKeyDown]);
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutsideDropDown);
