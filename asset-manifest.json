@@ -1,24 +1,35 @@
 {
   "files": {
     "main.css": "/oranjeJuice/static/css/main.a947cbd4.css",
-    "main.js": "/oranjeJuice/static/js/main.9e1b302e.js",
-    "static/css/205.bd416448.chunk.css": "/oranjeJuice/static/css/205.bd416448.chunk.css",
-    "static/js/205.d8688893.chunk.js": "/oranjeJuice/static/js/205.d8688893.chunk.js",
+    "main.js": "/oranjeJuice/static/js/main.2cc8e3f8.js",
+    "static/css/328.77c3630d.chunk.css": "/oranjeJuice/static/css/328.77c3630d.chunk.css",
+    "static/js/328.11491611.chunk.js": "/oranjeJuice/static/js/328.11491611.chunk.js",
     "static/js/570.54653706.chunk.js": "/oranjeJuice/static/js/570.54653706.chunk.js",
     "static/media/Hero.jpg": "/oranjeJuice/static/media/Hero.d911a6c222eba24845da.jpg",
     "static/media/Group 18.png": "/oranjeJuice/static/media/Group 18.613f586e7430e3e846ee.png",
     "static/media/image 17.png": "/oranjeJuice/static/media/image 17.3c9388c8d75dea963f08.png",
     "static/media/Story.png": "/oranjeJuice/static/media/Story.28b496f7fa708123fc0a.png",
     "static/media/image 20.png": "/oranjeJuice/static/media/image 20.7b9bba36d7501935a1c7.png",
+    "static/media/brand1.png": "/oranjeJuice/static/media/brand1.36e10a07aab79cfac36a.png",
+    "static/media/brand7.png": "/oranjeJuice/static/media/brand7.d1df893ac01c2c6b1d6b.png",
+    "static/media/brand2.png": "/oranjeJuice/static/media/brand2.dc092765ace1165f2ecc.png",
+    "static/media/brand5.png": "/oranjeJuice/static/media/brand5.0d82f4b6d60b34b7e52e.png",
+    "static/media/brand4.png": "/oranjeJuice/static/media/brand4.53514ecc450321736135.png",
+    "static/media/brand9.png": "/oranjeJuice/static/media/brand9.d469508d12b0a5efae0f.png",
+    "static/media/brand6.png": "/oranjeJuice/static/media/brand6.580be3d506b4dbaae3ba.png",
+    "static/media/brand3.png": "/oranjeJuice/static/media/brand3.09dd813c3e2238bd1df1.png",
+    "static/media/brand8.png": "/oranjeJuice/static/media/brand8.1e00cf4008f7e7052cb8.png",
+    "static/media/image 26.png": "/oranjeJuice/static/media/image 26.80d9274932889f2adb63.png",
+    "static/media/image 24.png": "/oranjeJuice/static/media/image 24.2ea215a8e0b96d7002fb.png",
     "index.html": "/oranjeJuice/index.html",
     "main.a947cbd4.css.map": "/oranjeJuice/static/css/main.a947cbd4.css.map",
-    "main.9e1b302e.js.map": "/oranjeJuice/static/js/main.9e1b302e.js.map",
-    "205.bd416448.chunk.css.map": "/oranjeJuice/static/css/205.bd416448.chunk.css.map",
-    "205.d8688893.chunk.js.map": "/oranjeJuice/static/js/205.d8688893.chunk.js.map",
+    "main.2cc8e3f8.js.map": "/oranjeJuice/static/js/main.2cc8e3f8.js.map",
+    "328.77c3630d.chunk.css.map": "/oranjeJuice/static/css/328.77c3630d.chunk.css.map",
+    "328.11491611.chunk.js.map": "/oranjeJuice/static/js/328.11491611.chunk.js.map",
     "570.54653706.chunk.js.map": "/oranjeJuice/static/js/570.54653706.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a947cbd4.css",
-    "static/js/main.9e1b302e.js"
+    "static/js/main.2cc8e3f8.js"
   ]
 }
