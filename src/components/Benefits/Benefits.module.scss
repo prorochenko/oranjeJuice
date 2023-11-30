@@ -13,3 +13,54 @@
   line-height: 1.5;
   text-align: center;
 }
+
+.benefits__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-column-gap: 10px;
+}
+
+.benefits__textBlock {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.benefits__textBlock_reverse {
+  order: 1;
+}
+.benefits__subTitle {
+  text-transform: uppercase;
+  color: var(--item-list-color);
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.benefits__text {
+  text-transform: capitalize;
+  color: var(--item-list-color);
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.benefits__button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  background-color: #f1ae00;
+  border-radius: 18px;
+  padding: 15px 25px;
+}

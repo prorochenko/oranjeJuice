@@ -6,14 +6,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   gap: 50px;
+  background: #fff8ea;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.presemce__title {
-  margin-bottom: 30px;
+.presence__title {
   text-transform: uppercase;
   color: var(--item-list-color);
   font-size: 32px;
+  line-height: 1.5;
+}
+
+.presence__description {
+  color: var(--item-list-color);
+  font-size: 20px;
   line-height: 1.5;
 }

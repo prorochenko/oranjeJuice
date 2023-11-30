@@ -6,8 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  gap: 50px;
+  flex-direction: column;
 }
 
 .partnership__title {
@@ -16,4 +15,58 @@
   color: var(--item-list-color);
   font-size: 32px;
   line-height: 1.5;
+}
+
+.partnership__description {
+  color: var(--item-list-color);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.partnership__blocks {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.partnership__block {
+  background-color: #fff8ea;
+  border-radius: 30px;
+}
+
+.partnership__image {
+  margin: 0 auto;
+}
+.partnership__subTitle {
+  text-transform: uppercase;
+  color: var(--item-list-color);
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+}
+.partnership__subDescription {
+  color: var(--item-list-color);
+  font-size: 20px;
+  line-height: 1.5;
+}
+.partnership__button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  background-color: #f1ae00;
+  border-radius: 18px;
+  padding: 15px 25px;
+}
+.partnership__buttonBox {
+  text-align: center;
 }

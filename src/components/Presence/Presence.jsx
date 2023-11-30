@@ -5,13 +5,13 @@ import Chart from 'react-google-charts';
 import React from 'react';
 
 const geoData = [
-  ['Country', 'presence'],
-  ['Germany', 'yes'],
-  ['United States', 'yes'],
-  ['Brazil', 'yes'],
-  ['Canada', 'yes'],
-  ['France', 'yes'],
-  ['Ukraine', 'yes'],
+  ['Country', '700'],
+  ['Germany', 700],
+  ['United States', 700],
+  ['Brazil', 700],
+  ['Canada', 700],
+  ['France', 700],
+  ['Ukraine', 700],
 ];
 const options = {
   colorAxis: { colors: ['#F1AE00'] },
@@ -23,7 +23,7 @@ export const Presence = () => {
   return (
     <Element name="presence" className={scss.presence}>
       <h2 className={scss.presence__title}>Our presence</h2>
-      <p>
+      <p className={scss.presence__description}>
         With a global reach, I&S Juice Farm proudly operates in various corners
         of the world, bringing the goodness of organic orange juice to diverse
         markets and cultures. Explore our international locations and discover
@@ -31,8 +31,8 @@ export const Presence = () => {
       </p>
 
       <Chart
-        width={'700px'}
-        height={'320px'}
+        width={'100%'}
+        height={'100%'}
         chartType="GeoChart"
         data={geoData}
         options={options}
