@@ -5,16 +5,6 @@ import React, { useEffect } from 'react';
 
 export const Hero = () => {
   useEffect(() => {
-    // Registering the 'begin' event and logging it to the console when triggered.
-    Events.scrollEvent.register('begin', (to, element) => {
-      console.log('begin', to, element);
-    });
-
-    // Registering the 'end' event and logging it to the console when triggered.
-    Events.scrollEvent.register('end', (to, element) => {
-      console.log('end', to, element);
-    });
-
     // Updating scrollSpy when the component mounts.
     scrollSpy.update();
 
@@ -24,13 +14,6 @@ export const Hero = () => {
       Events.scrollEvent.remove('end');
     };
   }, []);
-
-  // Defining functions to perform different types of scrolling.
-
-  // Function to handle the activation of a link.
-  const handleSetActive = to => {
-    console.log(to);
-  };
 
   return (
     <div className={scss.hero}>
@@ -49,9 +32,8 @@ export const Hero = () => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={50}
+        offset={0}
         duration={500}
-        onSetActive={handleSetActive}
       >
         Benefits
       </Link>

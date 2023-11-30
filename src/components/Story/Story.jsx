@@ -1,11 +1,12 @@
 import scss from './Story.module.scss';
 import storyImage from '../../assets/images/Story.png';
+import { Element } from 'react-scroll';
 
 import React from 'react';
 
 export const Story = () => {
   return (
-    <div className={scss.story}>
+    <Element name="about" className={scss.story}>
       <img src={storyImage} alt="our story" />
       <div>
         <h2 className={scss.story__title}>Our story and victories</h2>
@@ -22,6 +23,6 @@ export const Story = () => {
           contributing to a delightful and healthy world of orange refreshment!
         </p>
       </div>
-    </div>
+    </Element>
   );
 };

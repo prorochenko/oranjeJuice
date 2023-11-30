@@ -4,16 +4,6 @@ import React, { useEffect } from 'react';
 
 export const Header = () => {
   useEffect(() => {
-    // Registering the 'begin' event and logging it to the console when triggered.
-    Events.scrollEvent.register('begin', (to, element) => {
-      console.log('begin', to, element);
-    });
-
-    // Registering the 'end' event and logging it to the console when triggered.
-    Events.scrollEvent.register('end', (to, element) => {
-      console.log('end', to, element);
-    });
-
     // Updating scrollSpy when the component mounts.
     scrollSpy.update();
 
@@ -23,11 +13,6 @@ export const Header = () => {
       Events.scrollEvent.remove('end');
     };
   }, []);
-
-  // Function to handle the activation of a link.
-  const handleSetActive = to => {
-    console.log(to);
-  };
 
   return (
     <header className={scss.header}>
@@ -42,9 +27,8 @@ export const Header = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
-              onSetActive={handleSetActive}
             >
               about
             </Link>
@@ -55,9 +39,8 @@ export const Header = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
-              onSetActive={handleSetActive}
             >
               Benefits
             </Link>
@@ -68,9 +51,8 @@ export const Header = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
-              onSetActive={handleSetActive}
             >
               Our presence
             </Link>
@@ -81,9 +63,8 @@ export const Header = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
-              onSetActive={handleSetActive}
             >
               Partnership
             </Link>
