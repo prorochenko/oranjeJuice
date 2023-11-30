@@ -21,11 +21,14 @@ const Modal = props => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-  const handleKeyDown = useCallback(event => {
-    if (event.key === 'Escape') {
-      props.closeModal();
-    }
-  }, []);
+  const handleKeyDown = useCallback(
+    event => {
+      if (event.key === 'Escape') {
+        props.closeModal();
+      }
+    },
+    [props]
+  );
 
   const handleClickOutside = event => {
     if (event.target === event.currentTarget) {
