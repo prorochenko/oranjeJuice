@@ -5,24 +5,21 @@ import Chart from 'react-google-charts';
 import React from 'react';
 
 const geoData = [
-  ['Country', '700'],
-  ['Germany', 700],
-  ['United States', 700],
-  ['Brazil', 700],
-  ['Canada', 700],
-  ['France', 700],
-  ['Ukraine', 700],
+  ['Country', 'Presence from', 'Partners'],
+  ['Germany', new Date(2012, 3, 13), 3],
+  ['United States', 2021, 4],
+  ['Brazil', 2020, 5],
+  ['Canada', 2019, 5],
+  ['France', 2018, 2],
+  ['Ukraine', 2020, 1],
 ];
 
 const options = {
-  colorAxis: { colors: ['#F1AE00'] },
+  colorAxis: { colors: ['#F1AE00', '#F1AE00'] },
   datalessRegionColor: 'white',
   legend: 'none',
   backgroundColor: '#FFF8EA',
-  tooltip: {
-    show: true,
-    text: 'Country',
-  },
+  tooltip: { textStyle: { color: '#F1AE00', fontSize: 16 } },
 };
 
 export const Presence = () => {

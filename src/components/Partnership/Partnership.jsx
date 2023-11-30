@@ -6,7 +6,7 @@ import partnership3 from '../../assets/images/image 26.png';
 
 import React from 'react';
 
-export const Partnership = () => {
+export const Partnership = ({ openModal }) => {
   return (
     <Element name="partnership" className={scss.partnership}>
       <h2 className={scss.partnership__title}>
@@ -29,7 +29,11 @@ export const Partnership = () => {
             through your referrals.
           </p>
           <div className={scss.partnership__buttonBox}>
-            <button type="button" className={scss.partnership__button}>
+            <button
+              type="button"
+              className={scss.partnership__button}
+              onClick={openModal}
+            >
               Contact us
             </button>
           </div>
@@ -46,7 +50,11 @@ export const Partnership = () => {
             purchase our orange juice in large quantities.
           </p>
           <div className={scss.partnership__buttonBox}>
-            <button type="button" className={scss.partnership__button}>
+            <button
+              type="button"
+              className={scss.partnership__button}
+              onClick={openModal}
+            >
               Contact us
             </button>
           </div>
@@ -63,7 +71,11 @@ export const Partnership = () => {
             in their stores and establishments.
           </p>
           <div className={scss.partnership__buttonBox}>
-            <button type="button" className={scss.partnership__button}>
+            <button
+              type="button"
+              className={scss.partnership__button}
+              onClick={openModal}
+            >
               Contact us
             </button>
           </div>

@@ -1,4 +1,5 @@
-// import { Suspense } from 'react';
+import { useState } from 'react';
+
 // import { Outlet } from 'react-router-dom';
 
 import { Header } from '../Header/Header';
@@ -11,11 +12,17 @@ import { Partnership } from '../Partnership/Partnership';
 import { Reviews } from '../Reviews/Reviews';
 import { BecomePartner } from '../BecomePartner/BecomePartner';
 import { Footer } from '../Footer/Footer';
-
+import Modal from '../Modal/Modal';
 import css from './Layout.module.scss';
 // import LoadingComponent from '../Loader/Loader';
 
 const Layout = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setModalOpen(!isModalOpen);
+  };
+
   return (
     // <Suspense fallback={LoadingComponent()}>
     <div className={css.box}>
@@ -23,12 +30,13 @@ const Layout = () => {
       <Hero />
       <Story />
       <Slider />
-      <Benefits />
+      <Benefits openModal={toggleModal} />
       <Presence />
-      <Partnership />
+      <Partnership openModal={toggleModal} />
       <Reviews />
-      <BecomePartner />
+      <BecomePartner openModal={toggleModal} />
       <Footer />
+      {isModalOpen && <Modal closeModal={toggleModal} />}
       {/* <Outlet className={css.main} /> */}
     </div>
     // </Suspense>

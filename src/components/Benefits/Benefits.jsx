@@ -6,7 +6,7 @@ import benefits3 from '../../assets/images/image 20.png';
 
 import React from 'react';
 
-export const Benefits = () => {
+export const Benefits = ({ openModal }) => {
   return (
     <Element name="benefits" className={scss.benefits}>
       <h2 className={scss.benefits__title}>Benefits to work with us</h2>
@@ -18,7 +18,11 @@ export const Benefits = () => {
             competitive prices and flexible terms of delivery, ensuring a
             hassle-free experience from start to finish.
           </p>
-          <button className={scss.benefits__button} type="button">
+          <button
+            className={scss.benefits__button}
+            type="button"
+            onClick={openModal}
+          >
             Find out more
           </button>
         </div>
@@ -38,7 +42,11 @@ export const Benefits = () => {
             appeal of I&S Juice Farm's products. Additionally, a 10% increase in
             sales further contributes to your financial success.
           </p>
-          <button className={scss.benefits__button} type="button">
+          <button
+            className={scss.benefits__button}
+            type="button"
+            onClick={openModal}
+          >
             Find out more
           </button>
         </div>
@@ -56,7 +64,11 @@ export const Benefits = () => {
             products that customers love and trust, leading to enhanced brand
             loyalty and a thriving business.
           </p>
-          <button className={scss.benefits__button} type="button">
+          <button
+            className={scss.benefits__button}
+            type="button"
+            onClick={openModal}
+          >
             Find out more
           </button>
         </div>

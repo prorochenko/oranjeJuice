@@ -30,9 +30,9 @@ export const Slider = () => {
   return (
     <div className={scss.slider}>
       <div>
-        <div class={scss.hero__checks}>
-          <div class={`${scss.slider} ${scss.page_width}`}>
-            <div class={scss.hero__check_wrapper}>
+        <div className={scss.hero__checks}>
+          <div className={`${scss.slider} ${scss.page_width}`}>
+            <div className={scss.hero__check_wrapper}>
               {repeatedImages.map((image, index) => (
                 <img
                   key={index}
