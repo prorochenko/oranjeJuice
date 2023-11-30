@@ -21,33 +21,42 @@
   color: var(--item-list-color);
   font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 .partnership__blocks {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
 }
 
 .partnership__block {
   background-color: #fff8ea;
   border-radius: 30px;
+  padding: 30px 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .partnership__image {
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 .partnership__subTitle {
   text-transform: uppercase;
   color: var(--item-list-color);
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 25px;
 }
 .partnership__subDescription {
   color: var(--item-list-color);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 .partnership__button {
   border: none;

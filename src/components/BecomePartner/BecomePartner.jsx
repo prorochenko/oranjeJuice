@@ -7,6 +7,13 @@ export const BecomePartner = () => {
   return (
     <Element name="becomePartners" className={scss.becomePartner}>
       <h2 className={scss.becomePartner__title}>Become our partner</h2>
+      <p className={scss.becomePartner__description}>
+        We are always open to new partnerships and are happy to cooperate with
+        strong businesses and organizations.
+      </p>
+      <button type="button" className={scss.becomePartner__button}>
+        Find out more
+      </button>
     </Element>
   );
 };

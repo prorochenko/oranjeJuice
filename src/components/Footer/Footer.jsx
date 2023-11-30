@@ -6,7 +6,9 @@ import React from 'react';
 export const Footer = () => {
   return (
     <Element name="becomePartners" className={scss.footer}>
-      <h2 className={scss.footer__title}>Footer</h2>
+      <a href="/oranjeJuice" className={scss.footer__logo}>
+        I&S Juice Farm
+      </a>
     </Element>
   );
 };

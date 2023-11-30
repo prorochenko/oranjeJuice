@@ -3,11 +3,11 @@
 .reviews {
   @extend %container;
   @extend %section;
-  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  gap: 50px;
+  background-color: #fff8ea;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .reviews__title {
@@ -16,4 +16,47 @@
   color: var(--item-list-color);
   font-size: 32px;
   line-height: 1.5;
+  text-align: center;
+}
+.reviews__slider {
+  width: 100%;
+  height: 100%;
+}
+.reviews__swiperSlide {
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 100px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+}
+
+.reviews__sliderLogo {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 80px;
+}
+.reviews__review {
+  color: var(--item-list-color);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: left;
+}
+.reviews__authorBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 100px;
+}
+.reviews__sliderLogoMan {
+  margin-left: 140px;
+}
+.reviews__logoCompany {
+  width: 100px;
 }
