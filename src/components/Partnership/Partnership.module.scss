@@ -79,3 +79,26 @@
 .partnership__buttonBox {
   text-align: center;
 }
+
+@media only screen and (max-width: 767px) {
+  .partnership__title {
+    text-align: center;
+  }
+  .partnership__description {
+    padding: 0 20px;
+    font-size: 22px;
+  }
+
+  .partnership__blocks {
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+  .partnership__block {
+    margin: 0 20px;
+    max-width: 370px;
+    padding: 30px 25px;
+  }
+  .partnership__subDescription {
+    font-size: 20px;
+  }
+}

@@ -1,5 +1,7 @@
 import scss from './Hero.module.scss';
 import heroImage from '../../assets/images/Hero.jpg';
+import heroMob from '../../assets/images/newmob.jpg';
+
 import { Link, Events, scrollSpy } from 'react-scroll';
 import React, { useEffect } from 'react';
 
@@ -17,7 +19,12 @@ export const Hero = () => {
 
   return (
     <div className={scss.hero}>
-      <img src={heroImage} alt="Your Alt Text" />
+      <img
+        className={scss.hero__imageDesk}
+        src={heroImage}
+        alt="Your Alt Text"
+      />
+      <img className={scss.hero__imageMob} src={heroMob} alt="Your Alt Text" />
       <h2 className={scss.hero__title}>I&S Juice Farm</h2>
       <div className={scss.hero__blockFirst}>
         Welcome to I&S Juice Farm, your trusted source for premium organic

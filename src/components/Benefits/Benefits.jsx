@@ -26,7 +26,7 @@ export const Benefits = ({ openModal }) => {
             Find out more
           </button>
         </div>
-        <div>
+        <div className={scss.benefits__image}>
           <img src={benefits1} alt="our benefits" />
         </div>
       </div>
@@ -50,7 +50,7 @@ export const Benefits = ({ openModal }) => {
             Find out more
           </button>
         </div>
-        <div>
+        <div className={scss.benefits__image}>
           <img src={benefits2} alt="our benefits" />
         </div>
       </div>
@@ -65,14 +65,14 @@ export const Benefits = ({ openModal }) => {
             loyalty and a thriving business.
           </p>
           <button
-            className={scss.benefits__button}
+            className={`${scss.benefits__button} ${scss.benefits__buttonLast}`}
             type="button"
             onClick={openModal}
           >
             Find out more
           </button>
         </div>
-        <div>
+        <div className={scss.benefits__image}>
           <img src={benefits3} alt="our benefits" />
         </div>
       </div>

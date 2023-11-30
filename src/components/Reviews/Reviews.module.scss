@@ -60,3 +60,37 @@
 .reviews__logoCompany {
   width: 100px;
 }
+.reviews__jobTitle {
+  font-size: 16px;
+}
+.swiper-container {
+  --swiper-pagination-bottom: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .reviews__sliderLogoMan {
+    margin-left: 0;
+  }
+  .reviews {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .reviews__swiperSlide {
+    padding: 30px 20px;
+    padding-bottom: 60px;
+  }
+  .reviews__review {
+    font-size: 22px;
+  }
+  .reviews__jobTitle {
+    font-size: 18px;
+  }
+  .reviews__authorBlock {
+    gap: 30px;
+  }
+  .reviews__swiperSlide {
+    gap: 20px;
+  }
+  .swiper-container {
+    --swiper-pagination-bottom: 30px;
+  }
+}

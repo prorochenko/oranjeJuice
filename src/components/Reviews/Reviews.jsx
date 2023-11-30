@@ -24,7 +24,6 @@ export const Reviews = () => {
         style={{
           '--swiper-navigation-color': '#000',
           '--swiper-pagination-color': '#000',
-          '--swiper-pagination-bottom': '15px',
         }}
         modules={[Pagination]}
         spaceBetween={50}
@@ -42,9 +41,10 @@ export const Reviews = () => {
           <div>
             <p className={scss.reviews__review}>
               I'm so happy with the quality and service from I&S Juice Farm. I
-              order huge quantities for my shop, and they always deliver on time
-              and to my exact specifications. They consistently exceed our
-              expectations, making them an invaluable partner.
+              order huge quantities for my shop, and their commitment to impact
+              and they always deliver on time and to my exact specifications.
+              They consistently exceed our expectations, making them an
+              invaluable partner.
             </p>
             <div className={scss.reviews__authorBlock}>
               <img
@@ -59,7 +59,9 @@ export const Reviews = () => {
                   className={scss.reviews__logoCompany}
                 />
 
-                <span>Marketing Director John Queen</span>
+                <span className={scss.reviews__jobTitle}>
+                  Marketing Director John Queen
+                </span>
               </div>
             </div>
           </div>
@@ -74,10 +76,10 @@ export const Reviews = () => {
           <div>
             <p className={scss.reviews__review}>
               The outstanding quality and exceptional service from I&S Juice
-              Farm have made a significant impact on our events. As an event
-              coordinator, I rely on their prompt deliveries and attention to
-              detail. They consistently exceed our expectations, making them an
-              invaluable partner.
+              Farm have made a significant, and their commitment to impact on
+              our events. As an event coordinator, I rely on their prompt
+              deliveries and attention to detail. They consistently exceed our
+              expectations, making them an invaluable partner.
             </p>
             <div className={scss.reviews__authorBlock}>
               <img

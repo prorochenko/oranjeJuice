@@ -57,3 +57,38 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.hero__imageMob {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .hero__title {
+    font-size: 45px;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero__imageDesk {
+    display: none;
+  }
+  .hero__imageMob {
+    display: block;
+  }
+  .hero__title {
+    font-size: 35px;
+  }
+  .hero__blockFirst {
+    display: none;
+  }
+  .hero__blockSecond {
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 320px;
+    font-size: 20px;
+  }
+  .hero__button {
+    top: 90%;
+  }
+}

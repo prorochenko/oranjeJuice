@@ -35,8 +35,9 @@
   @include mq(mob-only) {
     width: 100vw;
     // height: 100vh;
-    padding: 20px 11px 37px 9px;
-    margin-top: 60px;
+    padding: 60px 11px 37px 9px;
+    // margin-top: 60px;
+
     height: 100dvh;
     // overflow-y: scroll;
   }
@@ -66,7 +67,10 @@
   border: 0;
 
   @include mq(mob-only) {
-    display: none;
+    top: 1%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
   }
   @include mq(tab) {
     top: 20px;
@@ -251,4 +255,31 @@
 }
 .dropdown .dropdown_menu li:active {
   background-color: #e2e2e2;
+}
+
+@media only screen and (max-width: 767px) {
+  .modal__title {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: var(--item-list-color);
+    font-size: 24px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .modal__form_row {
+    grid-template-columns: 1fr;
+  }
+
+  .modal__input {
+    width: 60%;
+  }
+
+  .dropdown {
+    width: 60%;
+  }
+  .modal__inputMessage {
+    width: 95%;
+    min-height: 100px;
+  }
 }

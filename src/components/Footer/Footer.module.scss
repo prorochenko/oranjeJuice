@@ -95,3 +95,14 @@
   color: var(--item-list-color);
   font-weight: 600;
 }
+
+@media only screen and (max-width: 767px) {
+  .footer__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 0 20px;
+  }
+}

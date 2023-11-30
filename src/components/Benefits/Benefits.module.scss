@@ -19,6 +19,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-column-gap: 10px;
+  justify-items: center;
 }
 
 .benefits__textBlock {
@@ -63,4 +64,29 @@
   background-color: #f1ae00;
   border-radius: 18px;
   padding: 15px 25px;
+}
+@media only screen and (max-width: 767px) {
+  .benefits__image {
+    display: none;
+  }
+  .benefits__block {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits__textBlock {
+    padding: 0 20px;
+  }
+  .benefits__button {
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .benefits__buttonLast {
+    margin-bottom: 0;
+  }
+  .benefits__subTitle {
+    margin: 0 auto;
+  }
+  .benefits__title {
+    margin-bottom: 80px;
+  }
 }

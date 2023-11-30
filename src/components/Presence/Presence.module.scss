@@ -25,3 +25,9 @@
   font-size: 20px;
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 767px) {
+  .presence__description {
+    padding: 0 20px;
+  }
+}

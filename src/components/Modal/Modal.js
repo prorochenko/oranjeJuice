@@ -197,7 +197,7 @@ const Modal = props => {
               value={formData.message}
               onChange={handleChange}
               required
-              className={css.modal__input}
+              className={`${css.modal__input} ${css.modal__inputMessage} `}
             ></textarea>
           </div>
           <div className={css.modal__buttonBox}>

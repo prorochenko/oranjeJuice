@@ -44,3 +44,10 @@
   border-radius: 18px;
   padding: 15px 25px;
 }
+
+@media only screen and (max-width: 767px) {
+  .becomePartner__description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
