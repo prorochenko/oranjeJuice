@@ -1,23 +1,11 @@
 import css from './Modal.module.scss';
 import { createPortal } from 'react-dom';
 import { BsXLg } from 'react-icons/bs';
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef, useCallback } from 'react';
 
 const modalRoot = document.querySelector('#modal-root');
 
 const Modal = props => {
-  const handleKeyDown = event => {
-    if (event.key === 'Escape') {
-      props.closeModal();
-    }
-  };
-
-  const handleClickOutside = event => {
-    if (event.target === event.currentTarget) {
-      props.closeModal();
-    }
-  };
-
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -33,7 +21,17 @@ const Modal = props => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+  const handleKeyDown = useCallback(event => {
+    if (event.key === 'Escape') {
+      props.closeModal();
+    }
+  }, []);
 
+  const handleClickOutside = event => {
+    if (event.target === event.currentTarget) {
+      props.closeModal();
+    }
+  };
   const handleSubmit = e => {
     e.preventDefault();
     console.log('Submitted:', formData);
