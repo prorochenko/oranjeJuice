@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/oranjeJuice/static/css/main.a947cbd4.css",
-    "main.js": "/oranjeJuice/static/js/main.2cc8e3f8.js",
-    "static/css/328.77c3630d.chunk.css": "/oranjeJuice/static/css/328.77c3630d.chunk.css",
-    "static/js/328.11491611.chunk.js": "/oranjeJuice/static/js/328.11491611.chunk.js",
-    "static/js/570.54653706.chunk.js": "/oranjeJuice/static/js/570.54653706.chunk.js",
+    "main.js": "/oranjeJuice/static/js/main.3e096a15.js",
+    "static/css/139.75203c9b.chunk.css": "/oranjeJuice/static/css/139.75203c9b.chunk.css",
+    "static/js/139.0fc92367.chunk.js": "/oranjeJuice/static/js/139.0fc92367.chunk.js",
+    "static/js/363.51e000db.chunk.js": "/oranjeJuice/static/js/363.51e000db.chunk.js",
     "static/media/Hero.jpg": "/oranjeJuice/static/media/Hero.d911a6c222eba24845da.jpg",
     "static/media/Group 18.png": "/oranjeJuice/static/media/Group 18.613f586e7430e3e846ee.png",
     "static/media/image 17.png": "/oranjeJuice/static/media/image 17.3c9388c8d75dea963f08.png",
@@ -21,15 +21,16 @@
     "static/media/brand8.png": "/oranjeJuice/static/media/brand8.1e00cf4008f7e7052cb8.png",
     "static/media/image 26.png": "/oranjeJuice/static/media/image 26.80d9274932889f2adb63.png",
     "static/media/image 24.png": "/oranjeJuice/static/media/image 24.2ea215a8e0b96d7002fb.png",
+    "static/media/image 32.png": "/oranjeJuice/static/media/image 32.1ddac59fcd9f218252b5.png",
     "index.html": "/oranjeJuice/index.html",
     "main.a947cbd4.css.map": "/oranjeJuice/static/css/main.a947cbd4.css.map",
-    "main.2cc8e3f8.js.map": "/oranjeJuice/static/js/main.2cc8e3f8.js.map",
-    "328.77c3630d.chunk.css.map": "/oranjeJuice/static/css/328.77c3630d.chunk.css.map",
-    "328.11491611.chunk.js.map": "/oranjeJuice/static/js/328.11491611.chunk.js.map",
-    "570.54653706.chunk.js.map": "/oranjeJuice/static/js/570.54653706.chunk.js.map"
+    "main.3e096a15.js.map": "/oranjeJuice/static/js/main.3e096a15.js.map",
+    "139.75203c9b.chunk.css.map": "/oranjeJuice/static/css/139.75203c9b.chunk.css.map",
+    "139.0fc92367.chunk.js.map": "/oranjeJuice/static/js/139.0fc92367.chunk.js.map",
+    "363.51e000db.chunk.js.map": "/oranjeJuice/static/js/363.51e000db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a947cbd4.css",
-    "static/js/main.2cc8e3f8.js"
+    "static/js/main.3e096a15.js"
   ]
 }
