@@ -14,9 +14,11 @@ export const Benefits = ({ openModal }) => {
         <div className={scss.benefits__textBlock}>
           <h2 className={scss.benefits__subTitle}>Favorable conditions</h2>
           <p className={scss.benefits__text}>
-            Cooperation with I&S Juice Farm gives you the opportunity to receive
-            competitive prices and flexible terms of delivery, ensuring a
-            hassle-free experience from start to finish.
+            Cooperation with I&S Juice Farm gives you the opportunity to receive{' '}
+            <span className={scss.benefits__accentRed}>
+              &nbsp; competitive prices and flexible terms &nbsp;
+            </span>
+            of delivery, ensuring a hassle-free experience from start to finish.
           </p>
           <button
             className={scss.benefits__button}
@@ -37,8 +39,11 @@ export const Benefits = ({ openModal }) => {
         >
           <h2 className={scss.benefits__subTitle}>Profit growth</h2>
           <p className={scss.benefits__text}>
-            On average, our partners see an increase in profits by 20-30%. This
-            substantial growth in revenue is a testament to the quality and
+            On average, our partners see an{' '}
+            <span className={scss.benefits__accentRed}>
+              &nbsp;increase in profits by 20-30%.
+            </span>{' '}
+            This substantial growth in revenue is a testament to the quality and
             appeal of I&S Juice Farm's products. Additionally, a 10% increase in
             sales further contributes to your financial success.
           </p>
@@ -59,10 +64,12 @@ export const Benefits = ({ openModal }) => {
         <div className={scss.benefits__textBlock}>
           <h2 className={scss.benefits__subTitle}>Customer satisfaction</h2>
           <p className={scss.benefits__text}>
-            With 98% satisfied customers, I&S Juice Farm's organic juices are in
-            high demand among consumers. Partnering with us means offering
-            products that customers love and trust, leading to enhanced brand
-            loyalty and a thriving business.
+            <span className={scss.benefits__accentRed}>
+              With 98% satisfied customers,
+            </span>{' '}
+            I&S Juice Farm's organic juices are in high demand among consumers.
+            Partnering with us means offering products that customers love and
+            trust, leading to enhanced brand loyalty and a thriving business.
           </p>
           <button
             className={`${scss.benefits__button} ${scss.benefits__buttonLast}`}
