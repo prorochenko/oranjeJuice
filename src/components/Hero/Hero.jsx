@@ -31,7 +31,7 @@ export const Hero = () => {
         orange juice
       </div>
       <div className={scss.hero__blockSecond}>
-        Join us in promoting a healthier lifestyle and become apartner today.
+        Join us in promoting a healthier lifestyle and become a partner today.
       </div>
       <Link
         className={scss.hero__button}
