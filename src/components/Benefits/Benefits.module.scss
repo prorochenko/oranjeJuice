@@ -22,6 +22,7 @@
   align-items: center;
   grid-column-gap: 10px;
   justify-items: start;
+  margin-bottom: 30px;
 }
 .benefits__blockReverse {
   justify-items: end;
@@ -40,7 +41,7 @@
 .benefits__subTitle {
   text-transform: uppercase;
   color: var(--item-list-color);
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.5;
 }
 
@@ -80,6 +81,7 @@
   }
   .benefits__block {
     grid-template-columns: 1fr;
+    margin-bottom: 0;
   }
 
   .benefits__textBlock {
