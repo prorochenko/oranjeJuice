@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/oranjeJuice/static/css/main.a947cbd4.css",
-    "main.js": "/oranjeJuice/static/js/main.b60894fb.js",
-    "static/css/249.ad0cd58e.chunk.css": "/oranjeJuice/static/css/249.ad0cd58e.chunk.css",
+    "main.js": "/oranjeJuice/static/js/main.2fad4463.js",
+    "static/css/249.4d19ac8b.chunk.css": "/oranjeJuice/static/css/249.4d19ac8b.chunk.css",
     "static/js/249.ef313ad0.chunk.js": "/oranjeJuice/static/js/249.ef313ad0.chunk.js",
     "static/css/860.16bbc6c4.chunk.css": "/oranjeJuice/static/css/860.16bbc6c4.chunk.css",
     "static/js/860.640f130d.chunk.js": "/oranjeJuice/static/js/860.640f130d.chunk.js",
@@ -26,14 +26,14 @@
     "static/media/image 32.png": "/oranjeJuice/static/media/image 32.1ddac59fcd9f218252b5.png",
     "index.html": "/oranjeJuice/index.html",
     "main.a947cbd4.css.map": "/oranjeJuice/static/css/main.a947cbd4.css.map",
-    "main.b60894fb.js.map": "/oranjeJuice/static/js/main.b60894fb.js.map",
-    "249.ad0cd58e.chunk.css.map": "/oranjeJuice/static/css/249.ad0cd58e.chunk.css.map",
+    "main.2fad4463.js.map": "/oranjeJuice/static/js/main.2fad4463.js.map",
+    "249.4d19ac8b.chunk.css.map": "/oranjeJuice/static/css/249.4d19ac8b.chunk.css.map",
     "249.ef313ad0.chunk.js.map": "/oranjeJuice/static/js/249.ef313ad0.chunk.js.map",
     "860.16bbc6c4.chunk.css.map": "/oranjeJuice/static/css/860.16bbc6c4.chunk.css.map",
     "860.640f130d.chunk.js.map": "/oranjeJuice/static/js/860.640f130d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a947cbd4.css",
-    "static/js/main.b60894fb.js"
+    "static/js/main.2fad4463.js"
   ]
 }
