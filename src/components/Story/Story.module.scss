@@ -3,10 +3,10 @@
 .story {
   @extend %container;
   @extend %section;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
   gap: 50px;
   padding-left: 40px;
   padding-right: 40px;
@@ -40,6 +40,9 @@
 }
 @media only screen and (max-width: 767px) {
   .story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
   }
